@@ -69,18 +69,11 @@ end
 def run
   help
   command = gets.chomp
-#  input = gets.chomp
-#  def get_input 
-#    binding.pry
     while command != "exit"
       puts "Please enter a command:"
       command = gets.chomp
     end
     exit_jukebox
-#  end
-#  get_input
-#  binding.pry
-  
 end
 
 #run
