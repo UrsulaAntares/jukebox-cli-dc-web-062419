@@ -66,7 +66,7 @@ end
 
 
 
-def run
+def run(songs)
   help
   command = ""
     while command != "exit"
