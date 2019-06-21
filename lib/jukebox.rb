@@ -75,7 +75,6 @@ def run(songs)
 #####
       if command == "play"
         play(songs)
-        binding.pry
       elsif command == "list"
        list(songs)
       elsif command == "help"
