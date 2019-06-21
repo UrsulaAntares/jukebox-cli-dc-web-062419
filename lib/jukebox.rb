@@ -70,7 +70,7 @@ def run
   help
   command = gets.chomp
 #  input = gets.chomp
-  def get_input 
+#  def get_input 
 #    binding.pry
     while command != "exit"
       puts "Please enter a command:"
