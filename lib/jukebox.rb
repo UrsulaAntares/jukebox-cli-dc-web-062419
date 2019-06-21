@@ -74,6 +74,7 @@ def run
     puts "Please enter a command:"
     command = gets.chomp
     command
+    binding.pry
   end
   get_input
   binding.pry
