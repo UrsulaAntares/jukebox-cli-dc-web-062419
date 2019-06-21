@@ -74,10 +74,10 @@ def run
     puts "Please enter a command:"
     command = gets.chomp
     command
-    binding.pry
+#    binding.pry
   end
   get_input
-  binding.pry
+#  binding.pry
   if command != "exit"
     get_input
   elsif command == "exit"
