@@ -74,6 +74,7 @@ def run
     command = gets.chomp
   end
   get_input
+  binding.pry
   if command != "exit"
     get_input
   else
