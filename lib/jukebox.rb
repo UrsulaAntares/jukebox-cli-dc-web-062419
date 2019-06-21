@@ -68,7 +68,7 @@ end
 
 def run
   help
-  command = ""
+  command = gets.chomp
 #  input = gets.chomp
   def get_input 
     puts "Please enter a command:"
