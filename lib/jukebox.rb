@@ -76,7 +76,7 @@ def run
     command
 #    binding.pry
   end
-  get_input
+#  get_input
 #  binding.pry
   if command != "exit"
     get_input
