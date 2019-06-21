@@ -68,7 +68,7 @@ end
 
 def run
   help
-  command = gets.chomp
+  command = ""
     while command != "exit"
       puts "Please enter a command:"
       command = gets.chomp
@@ -85,4 +85,4 @@ def run
     exit_jukebox
 end
 
-run
+#run
