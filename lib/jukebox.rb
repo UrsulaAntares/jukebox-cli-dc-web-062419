@@ -77,6 +77,8 @@ def run
         play(songs)
       elsif command == list
         list(songs)
+      elsif command == help
+        help
       end
       ####
     end
