@@ -73,12 +73,12 @@ def run(songs)
       puts "Please enter a command:"
       command = gets.chomp
 #####
-      if command == play
+      if command == "play"
         play(songs)
         binding.pry
-      elsif command == list
+      elsif command == "list"
        list(songs)
-      elsif command == help
+      elsif command == "help"
         help
       end
 #####
