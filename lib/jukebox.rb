@@ -77,7 +77,7 @@ def run
   binding.pry
   if command != "exit"
     get_input
-  else
+  elsif command == "exit"
     exit_jukebox
   end
 end
