@@ -68,12 +68,12 @@ end
 
 def run
   help
-  command = ""
-  input = gets.chomp
+#  command = ""
+#  input = gets.chomp
   def get_input 
     puts "Please enter a command:"
-
-    command = input
+    command = gets.chomp
+    command
   end
   get_input
   binding.pry
