@@ -71,18 +71,17 @@ def run
   command = gets.chomp
 #  input = gets.chomp
   def get_input 
-    puts "Please enter a command:"
-    command = gets.chomp
-    command
 #    binding.pry
+    while command != "exit"
+      puts "Please enter a command:"
+      command = gets.chomp
+    end
+    exit_jukebox
+  end
   end
 #  get_input
 #  binding.pry
-  if command != "exit"
-    get_input
-  elsif command == "exit"
-    exit_jukebox
-  end
+  
 end
 
 run
