@@ -17,4 +17,3 @@ songs = [
 
 
 run(songs)
-run
