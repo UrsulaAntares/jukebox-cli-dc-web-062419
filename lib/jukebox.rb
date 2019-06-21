@@ -74,7 +74,7 @@ def run
       command = gets.chomp
 #####
       if command == play
-        play(songs)
+        play
       elsif command == list
         list(songs)
       elsif command == help
