@@ -77,7 +77,7 @@ def run
       command = gets.chomp
     end
     exit_jukebox
-  end
+#  end
 #  get_input
 #  binding.pry
   
